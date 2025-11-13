@@ -1,0 +1,145 @@
+https://backlinko.com/skyscraper-technique
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://backlinko.com/skyscraper-technique/#/schema/article/backlinko",
+      "inLanguage": "en-US",
+      "headline": "Skyscraper Method: +110% Traffic in 14 days (Link Building Case Study)",
+      "description": "The Skyscraper Technique: a 3-step process for building white hat backlinks using content marketing.",
+      "datePublished": "2013-05-16T15:45:50-05:00",
+      "dateModified": "2024-06-20T08:10:53-05:00",
+      "copyrightYear": 2025,
+      "copyrightHolder": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      },
+      "publisher": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://backlinko.com/skyscraper-technique"
+      },
+      "thumbnailUrl": "https://api.backlinko.com/app/uploads/2020/06/skyscraper-technique.png",
+      "image": {
+        "@id": "https://backlinko.com/skyscraper-technique/#/schema/image/backlinko"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Brian Dean",
+        "@id": "https://backlinko.com/#/schema/person/dXNlcjox/backlinko"
+      },
+      "commentCount": 760
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://backlinko.com/#/schema/website/backlinko",
+      "url": "https://backlinko.com",
+      "name": "Backlinko",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://backlinko.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://backlinko.com/skyscraper-technique/#/schema/image/backlinko",
+      "url": "https://api.backlinko.com/app/uploads/2020/06/skyscraper-technique.png",
+      "contentUrl": "https://api.backlinko.com/app/uploads/2020/06/skyscraper-technique.png",
+      "width": 1600,
+      "height": 837,
+      "caption": "Link Building Case Study: How I Increased My Search Traffic by 110% in 14 Days"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://backlinko.com/skyscraper-technique/#/schema/breadcrumb/backlinko",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://backlinko.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://backlinko.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Skyscraper Method: +110% Traffic in 14 days (Link Building Case Study)",
+          "item": "https://backlinko.com/skyscraper-technique"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://backlinko.com/skyscraper-technique",
+      "url": "https://backlinko.com/skyscraper-technique",
+      "inLanguage": "en-US",
+      "name": "Skyscraper Method: +110% Traffic (Link Building Case Study)",
+      "datePublished": "2013-05-16T15:45:50-05:00",
+      "dateModified": "2024-06-20T08:10:53-05:00",
+      "description": "The Skyscraper Technique: a 3-step process for building white hat backlinks using content marketing.",
+      "isPartOf": {
+        "@id": "https://backlinko.com/#/schema/website/backlinko"
+      },
+      "about": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      },
+      "breadcrumb": {
+        "@id": "https://backlinko.com/skyscraper-technique/#/schema/breadcrumb/backlinko"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://backlinko.com/skyscraper-technique/#/schema/image/backlinko"
+      },
+      "image": {
+        "@id": "https://backlinko.com/skyscraper-technique/#/schema/image/backlinko"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://backlinko.com/#/schema/organization/backlinko",
+      "name": "Backlinko",
+      "url": "https://backlinko.com",
+      "sameAs": [
+        "https://www.facebook.com/Backlinko",
+        "https://www.youtube.com/user/backlinko/",
+        "https://twitter.com/Backlinko/"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://backlinko.com/#/schema/image/logo/backlinko",
+        "url": "https://api.backlinko.com/app/uploads/2023/11/backlinko-logo.png",
+        "width": 696,
+        "height": 696,
+        "caption": "Backlinko"
+      },
+      "image": {
+        "@id": "https://backlinko.com/#/schema/image/logo/backlinko"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://backlinko.com/#/schema/person/dXNlcjox/backlinko",
+      "name": "Brian Dean",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://backlinko.com/#/schema/person/dXNlcjox/image/backlinko",
+        "inLanguage": "en-US",
+        "width": 96,
+        "height": 96,
+        "caption": "Brian Dean avatar",
+        "url": "https://secure.gravatar.com/avatar/609c0e567577ac8c2c617f9062376394033fd851ca930c40bdc6aea2fa20fe2a?s=96&d=mm&r=g"
+      }
+    }
+  ]
+}</script>
