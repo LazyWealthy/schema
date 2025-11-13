@@ -1,0 +1,143 @@
+https://www.lazywealthy.com/breakout-trading-candle
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://lazywealthy.com/breakout-trading-candle/#/schema/article/lazywealthy",
+      "inLanguage": "en",
+      "headline": "Breakout Trading Candle: Step-by-Step to Reliable Chart Patterns (2025 Backtest)",
+      "description": "Still unsure about trading chart patterns? You’re not alone. Even with books, courses, and cheat sheets, real trades bring hesitation. This 2025 guide reveals how breakout trading candles act like a GPS—backed by 69K+ backtests. Learn to confirm breakouts, avoid false signals, and trade with confidence using step-by-step strategies, volume analysis, and proven pattern insights. Say goodbye to second-guessing and hello to reliable, data-driven trades.",
+      "datePublished": "2025-06-30T06:48:15.805Z",
+      "dateModified": "2025-11-13T03:04:17.042Z",
+      "copyrightYear": 2025,
+      "copyrightHolder": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      },
+      "publisher": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://lazywealthy.com/breakout-trading-candle"
+      },
+      "thumbnailUrl": "04b848_81ef2d2612764246808b3aa895b73b48~mv2.jpg",
+      "image": {
+        "@id": "https://lazywealthy.com/breakout-trading-candle/#/schema/image/lazywealthy"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Alan Chen",
+        "@id": "https://lazywealthy.com/#/schema/person/alan-chen/lazywealthy"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://lazywealthy.com/#/schema/website/lazywealthy",
+      "url": "https://lazywealthy.com",
+      "name": "LazyWealthy",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.lazywealthy.com/search?q={search_term}"
+        },
+        "query-input": "required name=search_term"
+      },
+      "publisher": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en",
+      "@id": "https://lazywealthy.com/breakout-trading-candle/#/schema/image/lazywealthy",
+      "url": "04b848_81ef2d2612764246808b3aa895b73b48~mv2.jpg",
+      "contentUrl": "04b848_81ef2d2612764246808b3aa895b73b48~mv2.jpg",
+      "width": 1400,
+      "height": 893
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://lazywealthy.com/breakout-trading-candle/#/schema/breadcrumb/lazywealthy",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lazywealthy.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lazywealthy.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Breakout Trading Candle",
+          "item": "https://lazywealthy.com/blog/breakout-trading-candle"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://lazywealthy.com/breakout-trading-candle",
+      "url": "https://lazywealthy.com/breakout-trading-candle",
+      "inLanguage": "en",
+      "name": "Breakout Trading Candle: Step-by-Step to Reliable Chart Patterns (2025 Backtest)",
+      "description": "Still unsure about trading chart patterns? You’re not alone. Even with books, courses, and cheat sheets, real trades bring hesitation. This 2025 guide reveals how breakout trading candles act like a GPS—backed by 69K+ backtests. Learn to confirm breakouts, avoid false signals, and trade with confidence using step-by-step strategies, volume analysis, and proven pattern insights. Say goodbye to second-guessing and hello to reliable, data-driven trades.",
+      "datePublished": "2025-06-30T06:48:15.805Z",
+      "dateModified": "2025-11-13T03:04:17.042Z",
+      "isPartOf": {
+        "@id": "https://lazywealthy.com/#/schema/website/lazywealthy"
+      },
+      "about": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      },
+      "breadcrumb": {
+        "@id": "https://lazywealthy.com/breakout-trading-candle/#/schema/breadcrumb/lazywealthy"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://lazywealthy.com/breakout-trading-candle/#/schema/image/lazywealthy"
+      },
+      "image": {
+        "@id": "https://lazywealthy.com/breakout-trading-candle/#/schema/image/lazywealthy"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy",
+      "name": "LazyWealthy",
+      "url": "https://lazywealthy.com",
+      "sameAs": [
+        null
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://lazywealthy.com/#/schema/image/logo/lazywealthy",
+        "url": "https://static.wixstatic.com/media/04b848_3066ea0d6a924aa2a09899d2b25bd089~mv2.png",
+        "width": 700,
+        "height": 224,
+        "caption": "LazyWealthy"
+      },
+      "image": {
+        "@id": "https://lazywealthy.com/#/schema/image/logo/lazywealthy"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://lazywealthy.com/#/schema/person/alan-chen/lazywealthy",
+      "name": "Alan Chen",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://lazywealthy.com/#/schema/person/alan-chen/lazywealthy",
+        "width": 96,
+        "height": 96,
+        "caption": "Alan Chen avatar",
+        "url": "https://static.wixstatic.com/media/04b848_a7e143f7167d45b29c56c4040decde83~mv2.png"
+      }
+    }
+  ]
+}
