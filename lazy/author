@@ -1,0 +1,107 @@
+https://www.lazywealthy.com/authors/alan-chen
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "WebPage",
+        "ProfilePage"
+      ],
+      "@id": "https://lazywealthy.com/authors/alan-chen",
+      "url": "https://lazywealthy.com/authors/alan-chen",
+      "inLanguage": "en",
+      "name": "Alan Chen - Founder & CEO",
+      "datePublished": "2025-11-06T06:00:37.024Z",
+      "dateModified": "2025-11-10T07:01:49.953Z",
+      "description": "The Lazy Chartist",
+      "isPartOf": {
+        "@id": "https://lazywealthy.com/#/schema/website/lazywealthy"
+      },
+      "about": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://lazywealthy.com/authors/alan-chen/#/schema/image/lazywealthy"
+      },
+      "image": {
+        "@id": "https://lazywealthy.com/authors/alan-chen/#/schema/image/lazywealthy"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en",
+      "@id": "https://lazywealthy.com/authors/alan-chen/#/schema/image/lazywealthy",
+      "url": "https://static.wixstatic.com/media/04b848_05edbf03a016420dacd4fb37c27d5a6e~mv2.jpg",
+      "contentUrl": "https://static.wixstatic.com/media/04b848_05edbf03a016420dacd4fb37c27d5a6e~mv2.jpg",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://lazywealthy.com/#/schema/website/lazywealthy",
+      "url": "https://lazywealthy.com",
+      "name": "LazyWealthy",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.lazywealthy.com/search?q={search_term}"
+        },
+        "query-input": "required name=search_term"
+      },
+      "publisher": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy",
+      "name": "LazyWealthy",
+      "url": "https://lazywealthy.com",
+      "sameAs": [
+        null
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://lazywealthy.com/#/schema/image/logo/lazywealthy",
+        "url": "https://static.wixstatic.com/media/04b848_3066ea0d6a924aa2a09899d2b25bd089~mv2.png",
+        "width": 700,
+        "height": 224,
+        "caption": "LazyWealthy"
+      },
+      "image": {
+        "@id": "https://lazywealthy.com/#/schema/image/logo/lazywealthy"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://lazywealthy.com/#/schema/person/alan-chen/lazywealthy",
+      "mainEntityOfPage": {
+        "@id": "https://lazywealthy.com/authors/alan-chen"
+      },
+      "name": "Alan Chen",
+      "alternateName": "陳樂強",
+      "jobTitle": "Founder & CEO",
+      "description": "Alan is an investment professional with over 25 years of experience and a graduate of the Johns Hopkins University. Alan has served as Chief Investment Officer for a family office in Taiwan. Alan also served as board director of cnYES.com, a leading financial news website in Taiwan. Previously, Alan has also worked at a hedge fund as Executive Director, and at investment banks on Wall Street and in Hong Kong.",
+      "image": {
+        "@id": "https://lazywealthy.com/authors/alan-chen/#/schema/image/lazywealthy"
+      },
+      "sameAs": [
+        "https://www.reddit.com/user/LazyChartist/"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Johns Hopkins University"
+      },
+      "knowsAbout": [
+        "Technical Analysis",
+        "Fundamental Analysis",
+        "Quant Trading",
+        "Hedge Fund",
+        "Private Equity",
+        "Corporate Finance"
+      ]
+    }
+  ]
+}
