@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://backlinko.com/",
+      "url": "https://backlinko.com/",
+      "inLanguage": "en-US",
+      "name": "Backlinko: SEO, Content Marketing, & Link Building Strategies",
+      "dateModified": "2025-09-15T12:05:46-05:00",
+      "description": "It's time to get backlinks that make a difference. Backlinko is the place for next-level SEO training and link building strategies.",
+      "isPartOf": {
+        "@id": "https://backlinko.com/#/schema/website/backlinko"
+      },
+      "about": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      },
+      "breadcrumb": {
+        "@id": "https://backlinko.com//#/schema/breadcrumb/backlinko"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://backlinko.com//#/schema/image/backlinko"
+      },
+      "image": {
+        "@id": "https://backlinko.com//#/schema/image/backlinko"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://backlinko.com//#/schema/image/backlinko",
+      "url": "https://api.backlinko.com/app/uploads/2024/08/backlinko-og-green.png",
+      "contentUrl": "https://api.backlinko.com/app/uploads/2024/08/backlinko-og-green.png",
+      "width": 1200,
+      "height": 631,
+      "caption": "backlinko-og-green"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://backlinko.com/#/schema/website/backlinko",
+      "url": "https://backlinko.com",
+      "name": "Backlinko",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://backlinko.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://backlinko.com/#/schema/organization/backlinko",
+      "name": "Backlinko",
+      "url": "https://backlinko.com",
+      "sameAs": [
+        "https://www.facebook.com/Backlinko",
+        "https://www.youtube.com/user/backlinko/",
+        "https://twitter.com/Backlinko/"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://backlinko.com/#/schema/image/logo/backlinko",
+        "url": "https://api.backlinko.com/app/uploads/2023/11/backlinko-logo.png",
+        "width": 696,
+        "height": 696,
+        "caption": "Backlinko"
+      },
+      "image": {
+        "@id": "https://backlinko.com/#/schema/image/logo/backlinko"
+      }
+    }
+  ]
+}
