@@ -1,0 +1,95 @@
+https://backlinko.com/blog
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://backlinko.com/#/schema/organization/backlinko",
+      "name": "Backlinko",
+      "url": "https://backlinko.com",
+      "sameAs": [
+        "https://www.facebook.com/Backlinko",
+        "https://www.youtube.com/user/backlinko/",
+        "https://twitter.com/Backlinko/"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://backlinko.com/#/schema/image/logo/backlinko",
+        "url": "https://api.backlinko.com/app/uploads/2023/11/backlinko-logo.png",
+        "width": 696,
+        "height": 696,
+        "caption": "Backlinko"
+      },
+      "image": {
+        "@id": "https://backlinko.com/#/schema/image/logo/backlinko"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://backlinko.com/#/schema/website/backlinko",
+      "url": "https://backlinko.com",
+      "name": "Backlinko",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://backlinko.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://backlinko.com/blog",
+      "url": "https://backlinko.com/blog",
+      "inLanguage": "en-US",
+      "name": "The Backlinko SEO Blog",
+      "dateModified": "2024-07-15T20:07:30-05:00",
+      "description": "Backlinko is an SEO blog that focuses on actionable SEO tips, strategies and case studies.",
+      "isPartOf": {
+        "@id": "https://backlinko.com/#/schema/website/backlinko"
+      },
+      "about": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      },
+      "breadcrumb": {
+        "@id": "https://backlinko.com/blog/#/schema/breadcrumb/backlinko"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://backlinko.com/blog/#/schema/image/backlinko"
+      },
+      "image": {
+        "@id": "https://backlinko.com/blog/#/schema/image/backlinko"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://backlinko.comnull/#/schema/image/backlinko",
+      "url": "https://api.backlinko.com/app/uploads/2024/05/backlinko-og-default-1.png",
+      "contentUrl": "https://api.backlinko.com/app/uploads/2024/05/backlinko-og-default-1.png",
+      "width": 1200,
+      "height": 630,
+      "caption": "backlinko-og-default"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://backlinko.com/blog/#/schema/breadcrumb/backlinko",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://backlinko.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://backlinko.com/blog"
+        }
+      ]
+    }
+  ]
+}
