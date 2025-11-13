@@ -1,0 +1,22 @@
+https://www.nerdwallet.com/author/arielle-oshea
+
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "image": "https://www.nerdwallet.com/tachyon/2019/08/aoshea-user-avatar.jpg?resize=105%2C63",
+  "name": "Arielle O'Shea",
+  "jobTitle": "Head of Content, Investing & Taxes",
+  "url": "https://www.nerdwallet.com/author/arielle-oshea",
+  "description": "Arielle O’Shea leads the investing and taxes team at NerdWallet. She has covered personal finance and investing for 15 years, previously as a researcher and reporter for leading personal finance journalist and author Jean Chatzky. Arielle has appeared as a financial expert on the \"Today\" show, NBC News and ABC's \"World News Tonight,\" and has been quoted in national publications including The New York Times, MarketWatch and Bloomberg News. Email: <a href=\"mailto:aoshea@nerdwallet.com\">aoshea@nerdwallet.com</a>.",
+  "sameAs": [
+    "https://www.linkedin.com/in/arielleoshea/"
+  ],
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Shepherd University"
+  },
+  "knowsAbout": [
+    "Retirement, financial planning, investment management"
+  ],
+  "publishingPrinciples": "https://www.nerdwallet.com/l/nerdwallet-editorial-guidelines"
+}
