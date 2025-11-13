@@ -7,4 +7,4 @@ Links to actual pages at Backlinko
 
 Author Profiles  
 [/author-brian-dean](https://backlinko.com/blog/authors/brian-dean)  
-[/nerdwallet](https://www.nerdwallet.com/author/arielle-oshea)  
+[/author-nerdwallet](https://www.nerdwallet.com/author/arielle-oshea)  
