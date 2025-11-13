@@ -1,5 +1,3 @@
-https://www.lazywealthy.com/
-
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -51,6 +49,18 @@ https://www.lazywealthy.com/
       "publisher": {
         "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
       }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://lazywealthy.com/#/schema/breadcrumb/lazywealthy",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lazywealthy.com"
+        }
+      ]
     },
     {
       "@type": "Organization",
