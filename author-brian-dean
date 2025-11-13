@@ -1,0 +1,83 @@
+https://backlinko.com/author/brian-dean 
+
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": [
+                "WebPage",
+                "ProfilePage"
+            ],
+            "@id": "https://backlinko.com/author/brian-dean",
+            "url": "https://backlinko.com/author/brian-dean",
+            "inLanguage": "en-US",
+            "name": "Brian Dean - Backlinko profile",
+            "datePublished": "2011-10-23T12:26:48-05:00",
+            "dateModified": "2024-08-14T09:37:59-05:00",
+            "description": "The expert that experts learn from",
+            "isPartOf": {
+                "@id": "https://backlinko.com/#/schema/website/backlinko"
+            },
+            "about": {
+                "@id": "https://backlinko.com/#/schema/organization/backlinko"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://backlinko.com/author/brian-dean/#/schema/image/backlinko"
+            },
+            "image": {
+                "@id": "https://backlinko.com/author/brian-dean/#/schema/image/backlinko"
+            }
+        },
+        {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://backlinko.com/author/brian-dean/#/schema/image/backlinko",
+            "url": "https://secure.gravatar.com/avatar/609c0e567577ac8c2c617f9062376394033fd851ca930c40bdc6aea2fa20fe2a?s=240&d=mm&r=g",
+            "contentUrl": "https://secure.gravatar.com/avatar/609c0e567577ac8c2c617f9062376394033fd851ca930c40bdc6aea2fa20fe2a?s=240&d=mm&r=g",
+            "width": 240,
+            "height": 240
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://backlinko.com/#/schema/website/backlinko",
+            "url": "https://backlinko.com",
+            "name": "Backlinko",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://backlinko.com/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            },
+            "publisher": {
+                "@id": "https://backlinko.com/#/schema/organization/backlinko"
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://backlinko.com/#/schema/organization/backlinko",
+            "name": "Backlinko",
+            "url": "https://backlinko.com",
+            "sameAs": [
+                "https://www.facebook.com/Backlinko",
+                "https://www.youtube.com/user/backlinko/",
+                "https://twitter.com/Backlinko/"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://backlinko.com/#/schema/image/logo/backlinko",
+                "url": "https://api.backlinko.com/app/uploads/2023/11/backlinko-logo.png",
+                "width": 696,
+                "height": 696,
+                "caption": "Backlinko"
+            },
+            "image": {
+                "@id": "https://backlinko.com/#/schema/image/logo/backlinko"
+            }
+        },
+        {
+            "@type": "Person",
+            "mainEntityOfPage": {
+                "@id": "https://backlinko.com/author/brian-dean"
+            }
+        }
+    ]
+}
