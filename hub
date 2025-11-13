@@ -1,0 +1,101 @@
+https://backlinko.com/hub/seo
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://backlinko.com/#/schema/organization/backlinko",
+      "name": "Backlinko",
+      "url": "https://backlinko.com",
+      "sameAs": [
+        "https://www.facebook.com/Backlinko",
+        "https://www.youtube.com/user/backlinko/",
+        "https://twitter.com/Backlinko/"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://backlinko.com/#/schema/image/logo/backlinko",
+        "url": "https://api.backlinko.com/app/uploads/2023/11/backlinko-logo.png",
+        "width": 696,
+        "height": 696,
+        "caption": "Backlinko"
+      },
+      "image": {
+        "@id": "https://backlinko.com/#/schema/image/logo/backlinko"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://backlinko.com/#/schema/website/backlinko",
+      "url": "https://backlinko.com",
+      "name": "Backlinko",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://backlinko.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://backlinko.com/hub/seo",
+      "url": "https://backlinko.com/hub/seo",
+      "inLanguage": "en-US",
+      "name": "The SEO Marketing Hub, A Free Library of 35+ SEO Resources",
+      "dateModified": "2025-03-19T09:10:57-05:00",
+      "description": "The SEO Marketing Hub: a library of 30+ resources that cover basic and advanced search engine optimization concepts and techniques.",
+      "isPartOf": {
+        "@id": "https://backlinko.com/#/schema/website/backlinko"
+      },
+      "about": {
+        "@id": "https://backlinko.com/#/schema/organization/backlinko"
+      },
+      "breadcrumb": {
+        "@id": "https://backlinko.com/hub/seo/#/schema/breadcrumb/backlinko"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://backlinko.com/hub/seo/#/schema/image/backlinko"
+      },
+      "image": {
+        "@id": "https://backlinko.com/hub/seo/#/schema/image/backlinko"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://backlinko.com/hub/seo/#/schema/image/backlinko",
+      "url": "https://api.backlinko.com/app/uploads/2020/05/seo-marketing-hub.png",
+      "contentUrl": "https://api.backlinko.com/app/uploads/2020/05/seo-marketing-hub.png",
+      "width": 1600,
+      "height": 837,
+      "caption": "SEO Marketing Hub"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://backlinko.com/hub/seo/#/schema/breadcrumb/backlinko",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://backlinko.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Hub",
+          "item": "https://backlinko.com/hub"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SEO Marketing Hub",
+          "item": "https://backlinko.com/hub/seo"
+        }
+      ]
+    }
+  ]
+}
