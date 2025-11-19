@@ -1,0 +1,181 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://lazywealthy.com/features/charting-copilot/#/schema/product/lazywealthy",
+      "inLanguage": "en",
+      "name": "Charting Copilot",
+      "url": "https://www.lazywealthy.com/features/charting-copilot",
+      "image": [
+        "https://static.wixstatic.com/media/04b848_3870f69f9b044f2c9886ad0dcdd9f27d~mv2.png",
+        "https://static.wixstatic.com/media/04b848_54dd4e0d987e4a07893bc86ff9d6b342~mv2.png"
+      ],
+      "description": "Charting Copilot helps you reconfirm your hunch about bullish and bearish patterns. Our algo highlights chart patterns, marks peaks and troughs, and draws trendlines automatically. Never second guess yourself again.",
+      "operatingSystem": "Web",
+      "applicationCategory": "FinanceApplication",
+      "isAccessibleForFree": true,
+      "publisher": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "23.00",
+        "highPrice": "228.00",
+        "offerCount": 3,
+        "offers": [
+          {
+            "@type": "Offer",
+            "@id": "https://lazywealthy.com/#/schema/offer/free",
+            "name": "Free Plan",
+            "url": "https://www.lazywealthy.com/pricing",
+            "price": "0.00",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://lazywealthy.com/#/schema/offer/trial",
+            "name": "Standard Plan (Trial)",
+            "url": "https://www.lazywealthy.com/pricing",
+            "price": "0.00",
+            "priceCurrency": "USD",
+            "eligibleDuration": "P14D"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://lazywealthy.com/#/schema/offer/standard",
+            "name": "Standard Plan (Paid)",
+            "url": "https://www.lazywealthy.com/pricing",
+            "priceCurrency": "USD",
+            "priceSpecification": [
+              {
+                "@type": "UnitPriceSpecification",
+                "price": "23.00",
+                "priceCurrency": "USD",
+                "name": "Standard Plan (Monthly)",
+                "billingDuration": "P1M",
+                "referenceQuantity": {
+                  "@type": "QuantitativeValue",
+                  "value": 1,
+                  "unitCode": "MON"
+                }
+              },
+              {
+                "@type": "UnitPriceSpecification",
+                "price": "228.00",
+                "priceCurrency": "USD",
+                "name": "Standard Plan (Yearly)",
+                "billingDuration": "P1Y",
+                "referenceQuantity": {
+                  "@type": "QuantitativeValue",
+                  "value": 1,
+                  "unitCode": "ANN"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "RegisterAction",
+        "name": "Start Free Trial"
+      },
+      "featureList": [
+        "Identify Patterns",
+        "Win Rate",
+        "Target (reference)",
+        "Stop Loss (reference)",
+        "Time Ruler",
+        "Confirm Signal",
+        "Trace Patterns"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy",
+      "name": "LazyWealthy",
+      "url": "https://lazywealthy.com",
+      "sameAs": [
+        null
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://lazywealthy.com/#/schema/image/logo/lazywealthy",
+        "url": "https://static.wixstatic.com/media/04b848_3066ea0d6a924aa2a09899d2b25bd089~mv2.png",
+        "width": 700,
+        "height": 224,
+        "caption": "LazyWealthy"
+      },
+      "image": {
+        "@id": "https://lazywealthy.com/#/schema/image/logo/lazywealthy"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://lazywealthy.com/#/schema/website/lazywealthy",
+      "url": "https://lazywealthy.com",
+      "name": "LazyWealthy",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.lazywealthy.com/search?q={search_term}"
+        },
+        "query-input": "required name=search_term"
+      },
+      "publisher": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://lazywealthy.com/features/charting-copilot",
+      "url": "https://lazywealthy.com/features/charting-copilot",
+      "inLanguage": "en",
+      "name": "Personal Trading Coach in Your Pocket • Charting Copilot ",
+      "description": "Skip the expensive, fluffy trading coach. Charting Copilot gives you clear visuals, entry rules, and stop-loss levels—powered by back test insight.",
+      "datePublished": "2024-01-04T06:35:50.871Z",
+      "dateModified": "2025-11-18T04:00:51.028Z",
+      "isPartOf": {
+        "@id": "https://lazywealthy.com/#/schema/website/lazywealthy"
+      },
+      "about": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      },
+      "breadcrumb": {
+        "@id": "https://lazywealthy.com/features/charting-copilot/#/schema/breadcrumb/lazywealthy"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://lazywealthy.com/features/charting-copilot/#/schema/image/lazywealthy"
+      },
+      "image": {
+        "@id": "https://lazywealthy.com/features/charting-copilot/#/schema/image/lazywealthy"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://lazywealthy.com/features/charting-copilot/#/schema/breadcrumb/lazywealthy",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lazywealthy.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Features",
+          "item": "https://lazywealthy.com/features"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Charting Copilot",
+          "item": "https://lazywealthy.com/features/charting-copilot"
+        }
+      ]
+    }
+  ]
+}
