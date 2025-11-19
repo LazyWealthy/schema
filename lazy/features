@@ -1,0 +1,139 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://lazywealthy.com/#/schema/features/lazywealthy",
+      "inLanguage": "en",
+      "name": "Features",
+      "url": "https://lazywealthy.com/features",
+      "description": "Discover trading tools for technical analysis—featuring automated signals, guided charting, bullish & bearish ranking and market insight dashboards.",
+      "publisher": {
+        "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy"
+      },
+      "mainEntity": {
+        "@id": "https://lazywealthy.com/features/#/schema/itemlist/lazywealthy"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://lazywealthy.com/features/#/schema/itemlist/lazywealthy",
+      "name": "Feature list",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Dashboards",
+            "applicationCategory": "FinanceApplication",
+            "operatingSystem": "Web",
+            "url": "https://www.lazywealthy.com/features/features/dashboards",
+            "description": "Stock market dashboard with curated ideas and price action scanner. Analyze portfolios, rank stocks by strength, and identify bullish or bearish signals with technical, expert, and thematic insights.",
+            "featureList": [
+              "Top Stocks",
+              "Technical Picks",
+              "Guru Picks",
+              "Thematic Picks",
+              "Free Trading Pattern Scanner"
+            ],
+            "image": [
+              "https://static.wixstatic.com/media/04b848_0f52f744b7454a57bb650c09be4ddead~mv2.jpg",
+              "https://static.wixstatic.com/media/04b848_69f202a0340541f2bb51f07736f3347c~mv2.jpg"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Watchlist Rank",
+            "applicationCategory": "FinanceApplication",
+            "operatingSystem": "Web",
+            "url": "https://www.lazywealthy.com/features/features/watchlist-rank",
+            "description": "Automated watchlist analyzer that ranks stocks by strength, highlighting bullish and bearish signals to quickly spot winners, weaknesses, and trend changes.",
+            "featureList": [
+              "Rank Watchlist by Strength",
+              "BullBear Score & Icon",
+              "Watchlist Toolbar"
+            ],
+            "image": [
+              "https://static.wixstatic.com/media/04b848_8626bce49c5f4e4da4dc04136d746912~mv2.png",
+              "https://static.wixstatic.com/media/04b848_9a2f5940b96b459aaf6ccd476d78931f~mv2.jpg",
+              "https://static.wixstatic.com/media/04b848_c36934c6d7354c8ebc94056a4bae551c~mv2.png"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Charting Copilot",
+            "applicationCategory": "FinanceApplication",
+            "operatingSystem": "Web",
+            "url": "https://www.lazywealthy.com/features/features/charting-copilot",
+            "description": "Charting Copilot helps you reconfirm your hunch about bullish and bearish patterns. Our algo highlights chart patterns, marks peaks and troughs, and draws trendlines automatically. Never second guess yourself again.",
+            "featureList": [
+              "Identify Patterns",
+              "Win Rate",
+              "Target (reference)",
+              "Stop Loss (reference)",
+              "Time Ruler",
+              "Confirm Signal",
+              "Trace Patterns"
+            ],
+            "image": [
+              "https://static.wixstatic.com/media/04b848_3870f69f9b044f2c9886ad0dcdd9f27d~mv2.png",
+              "https://static.wixstatic.com/media/04b848_54dd4e0d987e4a07893bc86ff9d6b342~mv2.png"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "LazyCharts",
+            "applicationCategory": "FinanceApplication",
+            "operatingSystem": "Web",
+            "url": "https://www.lazywealthy.com/features/features/lazycharts",
+            "description": "Scorecard-style trading signals that highlight bullish and bearish setups. Quickly assess technical strength, compare stock performance against market trends, and make informed trading decisions without decoding complex charts.",
+            "featureList": [
+              "Scorecard with Pros & Cons",
+              "Current & Past Signals",
+              "Timeframe Adjustment"
+            ],
+            "image": [
+              "https://static.wixstatic.com/media/04b848_abc262279b0e4ba6be3483c7dd1b76f8~mv2.png",
+              "https://static.wixstatic.com/media/04b848_42975aadd02f4d90965cda9a7cc759db~mv2.jpg",
+              "https://static.wixstatic.com/media/04b848_2f9427069c7f47d48ef33f508985ae1a~mv2.png"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://lazywealthy.com/#/schema/organization/lazywealthy",
+      "name": "LazyWealthy",
+      "url": "https://lazywealthy.com",
+      "sameAs": [
+        null
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://lazywealthy.com/#/schema/image/logo/lazywealthy",
+        "url": "https://static.wixstatic.com/media/04b848_3066ea0d6a924aa2a09899d2b25bd089~mv2.png",
+        "width": 700,
+        "height": 224,
+        "caption": "LazyWealthy"
+      },
+      "image": {
+        "@id": "https://lazywealthy.com/#/schema/image/logo/lazywealthy"
+      }
+    }
+  ]
+}
